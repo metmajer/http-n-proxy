@@ -1,0 +1,26 @@
+{
+	"name": "http-n-proxy",
+	"version": "0.1.0",
+	"description": "A simple server which proxies HTTP requests to multiple targets.",
+	"main": "http-n-proxy.js",
+	"scripts": {
+		"start": "http-n-proxy.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/metmajer/http-n-proxy.git"
+	},
+	"author": "Martin Etmajer",
+	"contributors": [{
+		"name": "Martin Etmajer",
+		"email": "martin@etmajer.com"
+	}],
+	"license": "MIT",
+	"homepage": "https://github.com/metmajer/http-n-proxy/",
+	"bugs": "https://github.com/metmajer/http-n-proxy/issues",
+	"dependencies": {
+		"http-proxy": "*"
+	},
+	"categories": ["Networking", "Utilities"],
+	"private": true
+}
