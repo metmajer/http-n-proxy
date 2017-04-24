@@ -10,7 +10,8 @@ if (!process.env.HTTP_N_PROXY_TARGETS) {
 
 var proxy = httpProxy.createProxyServer({})
   .on('error', function (err) {
-    console.log(e);
+    // don't throw on error, keep listening
+    console.log(err);
   });
 
 var proxyPort = process.env.HTTP_N_PROXY_PORT || 80;
