@@ -4,7 +4,7 @@
 	"description": "A simple server which proxies HTTP requests to multiple targets.",
 	"main": "http-n-proxy.js",
 	"scripts": {
-		"start": "http-n-proxy.js"
+		"start": "node http-n-proxy.js"
 	},
 	"repository": {
 		"type": "git",
